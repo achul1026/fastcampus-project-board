@@ -1,5 +1,6 @@
 package com.fastcampusprojectboard.projectboard.controller;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
@@ -17,6 +18,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
 
+@Disabled("String Date Rest  통합 테스트는 불필요하여 제외시킴")
 @SpringBootTest
 @AutoConfigureMockMvc
 @DisplayName("Data Rest Test - API 테스트")
